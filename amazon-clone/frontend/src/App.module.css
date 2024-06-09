@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+body {
+  background-color: #dadada;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.featuredCard {
+  margin-top: -15vw;
+  margin-bottom: 20px;
+}
+
+.specialOffersCard {
+  margin-bottom: 50px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}

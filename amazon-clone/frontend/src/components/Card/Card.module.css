@@ -1,0 +1,39 @@
+/* Card.module.css */
+
+.boxRow {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.boxCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 20px;
+  background: #fff;
+  max-width: 20%;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.boxCol a {
+  font-size: 18px;
+  color: #009999;
+  font-weight: 500;
+}
+
+.headerBox {
+  padding-top: 20px;
+}
+
+.cardTitle {
+  margin: 20px 50px;
+  font-size: 24px;
+}
+
+.cardContainer {
+  margin-bottom: 50px;
+}
